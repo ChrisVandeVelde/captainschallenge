@@ -1,3 +1,64 @@
 body {
-  background-color: #71CBF4;
+    background-color: #71CBF4;
+    width: 90%;
+    margin: auto;
+    color:#1A115A;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.logodiv > img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.infodiv {
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+li {
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 750px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    body {
+         width: 85%;
+    }
+
+    .logodiv > img {
+        max-width: 150px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .logodiv > img {
+        max-width: 200px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    body {
+        width: 80%;
+    }
 }
